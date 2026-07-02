@@ -11,6 +11,7 @@ import Components from 'unplugin-vue-components/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/AI-chat/',
   // 开发服务器配置（仅 npm run dev 时生效）
   server: {
     port: 5173, // 本地启动端口，默认 5173，可改成任意未占用端口
